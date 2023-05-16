@@ -4,8 +4,11 @@ The way to access server to local and local to server.
 Step -1
 
 <b>1.</b> Create a new folder .vscode
+
 <b>2.</b> Create a json file sftp.json
+
 <b>3.</b> Add configration.
+
 ##### Case 01
 
 If you need to access the server with domain address, Add the below json body into your sftp.json file
