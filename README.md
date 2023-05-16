@@ -20,7 +20,8 @@ If you need to access the server with domain address, Add the below json body in
     "uploadOnSave": true,
     "password": "password"
     
-}```
+} 
+```
 
 
 ##### Case 02
@@ -44,7 +45,8 @@ If you need to access the server with internal IP address, Add the below json bo
         }
     },
     "defaultProfile": "cloud"
-}```
+} 
+```
 
 ##### Description
 
