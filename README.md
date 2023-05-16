@@ -1,6 +1,5 @@
 # ftp-server-connection
-The way to access server to local and local to server.
-
+The way to access server to local and local to server in your vscode. 
 
 <b>1.</b> Create a new folder .vscode
 
@@ -55,4 +54,8 @@ If you need to access the server with internal IP address, Add the below json bo
 - `protocol` - `sftp`/`ftp`
 - `port` - The port number - `22`/`21`/any other
 - `remotePath` - The project path - `public_html` OR `/var/www/html/project folder`
-- `uploadOnSave` - `true` - It will upload and download the new changes files from local and server, If you set `false` it will stop the process. 
+- `uploadOnSave` - `true` - It will upload and download the new changes files from local and server, If you set `false` it will stop the process.
+
+Once you edit your json file, you will able to upload and download the files from the server to local.
+eg: `sync.remoteToLocal`
+
